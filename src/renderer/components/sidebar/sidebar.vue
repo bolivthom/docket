@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="sidebar-wrapper">
     <ul class="nav flex-column">
   <li class="nav-item">
     <a class="nav-link active" href="/">Timetable</a>
@@ -28,4 +28,10 @@
     }
   }
 </script>
+
+<style>
+#sidebar-wrapper {
+  margin: 20px;
+}
+</style>
 

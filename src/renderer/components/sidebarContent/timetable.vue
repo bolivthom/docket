@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="content-wrapper">
     <h1>HI THERE. I'M A TIMETABLE</h1>
   </div>
 </template>
@@ -18,3 +18,9 @@
     }
   }
 </script>
+
+<style>
+#content-wrapper {
+  margin: 20px;
+}
+</style>
