@@ -7,7 +7,7 @@
       <p id="theme-header">Theme</p>
       <div id="theme-settings">
         <div id="dark-theme">
-          <div class="card">
+          <div class="card border-0">
             <div class="card-body">
             </div>
           </div>
@@ -15,7 +15,7 @@
         </div>
 
         <div id="light-theme"> 
-          <div class="card">
+          <div class="card border-0">
             <div class="card-body">
             </div>
           </div>
@@ -73,6 +73,11 @@
 .card {
   height: 150px;
   width: 150px;
+}
+
+.theme-title {
+  font-size: 13px;
+  color: gray;
 }
 
 </style>
