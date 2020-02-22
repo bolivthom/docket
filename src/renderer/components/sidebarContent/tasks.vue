@@ -26,6 +26,7 @@
   height: 100vh;
   width: 100%;
   padding: 20px;
+  padding-left: 50px;
 }
 
 #tasks-description {

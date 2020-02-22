@@ -3,14 +3,25 @@
     <h4>Settings</h4>
     <p id="settings-description">You can change your preferences here. They will be automatically saved.</p>
     <div>
+
       <p id="theme-header">Theme</p>
       <div id="theme-settings">
         <div id="dark-theme">
-          <p>Dark</p>
+          <div class="card">
+            <div class="card-body">
+            </div>
+          </div>
+          <p class="theme-title">Dark</p>
         </div>
-        <div id="light-theme">
-          <p>Light</p>
+
+        <div id="light-theme"> 
+          <div class="card">
+            <div class="card-body">
+            </div>
+          </div>
+          <p class="theme-title">Light</p>
         </div>
+
       </div>
     </div>
   </div>
@@ -37,6 +48,7 @@
   height: 100vh;
   width: 100%;
   padding: 20px;
+  padding-left: 50px;
 }
 
 #settings-description {
@@ -55,6 +67,12 @@
 }
 
 #dark-theme {
-  margin-right: 200px;
+  margin-right: 100px;
 }
+
+.card {
+  height: 150px;
+  width: 150px;
+}
+
 </style>

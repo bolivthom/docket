@@ -38,6 +38,7 @@
 
 #sidebar-header {
   margin-bottom: 150px;
+  color: #880E4F;
 }
 </style>
 
