@@ -17,7 +17,12 @@ export default new Router({
     {
       path: '/tasks',
       name: 'tasks-page',
-      component: require('@/components/TasksPage')
+      component: require('@/components/TasksPage').default
+    },
+    {
+      path: '/settings',
+      name: 'settings-page',
+      component: require('@/components/SettingsPage').default
     }
   ]
 })

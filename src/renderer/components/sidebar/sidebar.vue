@@ -1,14 +1,15 @@
 <template>
   <div id="sidebar-wrapper">
+    <router-view></router-view>
     <ul class="nav flex-column">
   <li class="nav-item">
-    <a class="nav-link active" href="/">Timetable</a>
+    <router-link to="/" class="nav-link">Home</router-link>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="/tasks">Tasks</a>
+    <router-link to="/tasks" class="nav-link">Tasks</router-link>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="/settings">Settings</a>
+    <router-link to="/settings" class="nav-link">Settings</router-link>
   </li>
 </ul>
   </div>
@@ -31,7 +32,13 @@
 
 <style>
 #sidebar-wrapper {
-  margin: 20px;
+  padding: 20px;
+  width: 300px;
+}
+
+
+#tasks-link, #settings-link {
+  color: darkgray;
 }
 </style>
 
