@@ -1,6 +1,7 @@
 <template>
-  <div>
-    <h1>HI THERE. I'M A TASK LIST</h1>
+  <div id="tasks-content">
+    <h4>Tasks</h4>
+    <p id="tasks-description">Here you can see your tasks</p>
   </div>
 </template>
 
@@ -18,3 +19,18 @@
     }
   }
 </script>
+
+<style>
+#tasks-content {
+  background-color: rgb(247, 247, 247);
+  height: 100vh;
+  width: 100%;
+  padding: 20px;
+}
+
+#tasks-description {
+  font-size: 13px;
+  color: gray;
+  margin-bottom: 50px;
+}
+</style>

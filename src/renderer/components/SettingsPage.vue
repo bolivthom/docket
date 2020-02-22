@@ -1,8 +1,8 @@
 <template>
-  <div id="wrapper">
+  <div id="">
     <main>
       <div class="left-side">
-        <sidebar></sidebar>
+        <settingsSidebar></settingsSidebar>
         <settings></settings>
       </div>
       <div class="right-side">
@@ -12,12 +12,12 @@
 </template>
 
 <script>
-  import sidebar from './sidebar/sidebar'
+  import settingsSidebar from './sidebar/settingsSidebar'
   import settings from './sidebarContent/settings'
 
   export default {
     name: 'tasks-page',
-    components: { sidebar, settings },
+    components: { settingsSidebar, settings },
     methods: {
       open (link) {
         this.$electron.shell.openExternal(link)

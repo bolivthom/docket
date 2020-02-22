@@ -1,4 +1,4 @@
-# my-project
+# docket
 
 > An electron-vue project
 

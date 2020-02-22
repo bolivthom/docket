@@ -1,8 +1,8 @@
 <template>
-  <div id="wrapper">
+  <div id="">
     <main>
       <div class="left-side">
-        <sidebar></sidebar>
+        <tasksSidebar></tasksSidebar>
         <tasks></tasks>
       </div>
       <div class="right-side">
@@ -12,12 +12,12 @@
 </template>
 
 <script>
-  import sidebar from './sidebar/sidebar'
+  import tasksSidebar from './sidebar/tasksSidebar'
   import tasks from './sidebarContent/tasks'
 
   export default {
     name: 'tasks-page',
-    components: { sidebar, tasks },
+    components: { tasksSidebar, tasks },
     methods: {
       open (link) {
         this.$electron.shell.openExternal(link)
@@ -45,7 +45,6 @@
         rgba(229, 229, 229, .9) 100%
       );
     height: 100vh;
-    padding: 20px 0px;
     width: 100vw;
   }
 
