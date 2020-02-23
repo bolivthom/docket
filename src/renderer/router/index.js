@@ -23,6 +23,11 @@ export default new Router({
       path: '/settings',
       name: 'settings-page',
       component: require('@/components/SettingsPage').default
+    },
+    {
+      path: '/new-schedule',
+      name: 'new-schedule-page',
+      component: require('@/components/newSchedulePage').default
     }
   ]
 })

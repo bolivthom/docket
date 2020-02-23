@@ -52,6 +52,5 @@
 #timetable-tasks-link:hover, #timetable-settings-link:hover {
   fill: #AD1457;
 }
-
 </style>
 
