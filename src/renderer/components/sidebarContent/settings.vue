@@ -75,14 +75,11 @@
   width: 150px;
 }
 
-.card:hover {
-  border: 1px
-}
-
 .theme-title {
   font-size: 13px;
   color: gray;
   text-align: center;
   padding: 10px;
 }
+
 </style>

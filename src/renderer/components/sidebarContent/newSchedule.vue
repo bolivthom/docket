@@ -3,8 +3,8 @@
     <router-link id="close-icon" to="/" class="nav-link"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg></router-link>
     <h4>New Lesson</h4>
     <p id="new-schedule-description">Here you can create a new lesson and add it to your timetable</p>
+    
     <form>
-    <div class="row">
   <div id="left" class="form-group">
     <label>Lesson Name</label>
     <input type="text" class="form-control" id="">
@@ -17,8 +17,7 @@
         <option>Wednesday</option>
     </select>
   </div>
-    </div>
-    <div class="row">
+  
   <div id="left" class="form-group">
     <label>Start Time</label>
     <input type="time" class="form-control" id="">
@@ -27,8 +26,7 @@
     <label>End Time</label>
     <input type="time" class="form-control" id="">
   </div>
-    </div>
-    <div class="row">
+  
   <div id="left" class="form-group">
     <label>Location</label>
     <input type="text" class="form-control" id="">
@@ -37,7 +35,7 @@
     <label>Teacher</label>
     <input type="text" class="form-control" id="">
   </div>
-    </div>
+  
     <button type="button"  id="add-schedule-button">SUBMIT</button>
 </form>
   </div>
@@ -91,10 +89,6 @@ input:focus, select:focus {
     box-shadow: none !important;
 }
 
-#left {
-    margin-right: 100px;
-}
-
 #add-schedule-button {
   height: 40px;
   width: 100px;
@@ -104,5 +98,10 @@ input:focus, select:focus {
   color: white;
   font-size: 12px;
   font-weight: 500;
+}
+
+form {
+  width: 500px;
+  margin-bottom: 50px;
 }
 </style>

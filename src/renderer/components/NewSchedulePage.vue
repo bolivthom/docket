@@ -2,7 +2,9 @@
   <div id="">
     <main>
       <div class="left-side">
+        <div id="x">
         <timetableSidebar></timetableSidebar>
+        </div>
         <tasks></tasks>
       </div>
       <div class="right-side">
@@ -61,5 +63,4 @@
     display: flex;
     flex-direction: row;
   }
-
 </style>

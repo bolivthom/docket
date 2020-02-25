@@ -43,10 +43,12 @@
 
 #settings-control-link {
   fill: #AD1457;
+  margin-bottom: 30px;
 }
 
 #settings-timetable-link, #settings-tasks-link {
     fill: lightgrey;
+    margin-bottom: 30px;
 }
 
 #settings-timetable-link:hover, #settings-tasks-link:hover {

@@ -43,10 +43,12 @@
 
 #timetable-schedule-link {
   fill: #AD1457;
+  margin-bottom: 30px;
 }
 
 #timetable-tasks-link, #timetable-settings-link {
   fill: lightgrey;
+  margin-bottom: 30px;
 }
 
 #timetable-tasks-link:hover, #timetable-settings-link:hover {

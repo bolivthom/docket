@@ -47,10 +47,12 @@ svg {
 
 #tasks-note-link {
     fill: #AD1457;
+    margin-bottom: 30px;
 }
 
 #tasks-timetable-link, #tasks-settings-link {
     fill: lightgrey;
+    margin-bottom: 30px;
 }
 
 #tasks-timetable-link:hover, #tasks-settings-link:hover {
